@@ -18,9 +18,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 //Configuración oara Identity
+// Configuración para Identity (Regresamos a tu clase ApplicationUser)
 builder.Services
     .AddIdentity<ApplicationUser, IdentityRole>(options =>
     {
+        // ... (tus opciones de contraseñas se quedan igual)
         options.Password.RequiredLength = 8;
         options.Password.RequireDigit = true;
         options.Password.RequireUppercase = true;
@@ -141,12 +143,13 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-//Crear los roles iniciales
+// Crear los roles iniciales (Sincronizados con Angular)
 using (var scope = app.Services.CreateScope())
 {
     var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
 
-    string[] roles = { "Administrador", "Usuario" };
+    // Cambiamos los nombres para que coincidan con tu Front-End y tu Controlador
+    string[] roles = { "admin", "cliente" };
 
     foreach (var role in roles)
     {
@@ -156,5 +159,7 @@ using (var scope = app.Services.CreateScope())
         }
     }
 }
+
+app.Run();
 
 app.Run();

@@ -17,6 +17,7 @@ namespace AuthenticationAPI.Controllers
             _service = service;
         }
 
+        [Authorize(Roles = "admin")]
         [HttpPost("register")]
         public async Task<IActionResult> Register(RegisterRequestDto dto)
         {

@@ -171,3 +171,4 @@ C:\Materias-Universidad\AuthenticationSystem\AuthenticationAPI\obj\Debug\net9.0\
 C:\Materias-Universidad\AuthenticationSystem\AuthenticationAPI\obj\Debug\net9.0\AuthenticationAPI.pdb
 C:\Materias-Universidad\AuthenticationSystem\AuthenticationAPI\obj\Debug\net9.0\AuthenticationAPI.genruntimeconfig.cache
 C:\Materias-Universidad\AuthenticationSystem\AuthenticationAPI\obj\Debug\net9.0\ref\AuthenticationAPI.dll
+C:\Materias-Universidad\AuthenticationSystem\AuthenticationAPI\obj\Debug\net9.0\AuthenticationAPI.sourcelink.json

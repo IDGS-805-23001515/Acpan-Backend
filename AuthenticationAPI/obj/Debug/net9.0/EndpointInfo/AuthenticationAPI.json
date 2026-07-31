@@ -180,12 +180,12 @@
     "schemas": {
       "LoginRequestDto": {
         "required": [
-          "email",
+          "correo",
           "password"
         ],
         "type": "object",
         "properties": {
-          "email": {
+          "correo": {
             "minLength": 1,
             "type": "string",
             "format": "email"
@@ -199,26 +199,24 @@
       },
       "RegisterRequestDto": {
         "required": [
-          "email",
-          "nombreCompleto",
-          "password"
+          "correo",
+          "nombre",
+          "rol"
         ],
         "type": "object",
         "properties": {
-          "nombreCompleto": {
-            "maxLength": 200,
-            "minLength": 0,
+          "nombre": {
+            "minLength": 1,
             "type": "string"
           },
-          "email": {
+          "correo": {
             "minLength": 1,
             "type": "string",
             "format": "email"
           },
-          "password": {
-            "minLength": 8,
-            "type": "string",
-            "format": "password"
+          "rol": {
+            "minLength": 1,
+            "type": "string"
           }
         },
         "additionalProperties": false
