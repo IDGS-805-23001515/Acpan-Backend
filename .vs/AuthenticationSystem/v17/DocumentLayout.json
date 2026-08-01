@@ -7,6 +7,22 @@
       "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\materias-universidad\\authenticationsystem\\authenticationapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\materias-universidad\\authenticationsystem\\authenticationapi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\materias-universidad\\authenticationsystem\\authenticationapi\\dto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\dto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\materias-universidad\\authenticationsystem\\authenticationapi\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\materias-universidad\\authenticationsystem\\authenticationapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,44 +31,20 @@
       "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\materias-universidad\\authenticationsystem\\authenticationapi\\dto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\dto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\materias-universidad\\authenticationsystem\\authenticationapi\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\materias-universidad\\authenticationsystem\\authenticationapi\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\materias-universidad\\authenticationsystem\\authenticationapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\materias-universidad\\authenticationsystem\\authenticationapi\\dto\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\dto\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\materias-universidad\\authenticationsystem\\authenticationapi\\migrations\\20260731030852_iniatacpan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\migrations\\20260731030852_iniatacpan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\materias-universidad\\authenticationsystem\\authenticationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\materias-universidad\\authenticationsystem\\authenticationapi\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\materias-universidad\\authenticationsystem\\authenticationapi\\configuration\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\configuration\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\materias-universidad\\authenticationsystem\\authenticationapi\\migrations\\20260718145130_iniatcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\migrations\\20260718145130_iniatcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\materias-universidad\\authenticationsystem\\authenticationapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\materias-universidad\\authenticationsystem\\authenticationapi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\materias-universidad\\authenticationsystem\\authenticationapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,8 +55,12 @@
       "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\materias-universidad\\authenticationsystem\\authenticationapi\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\materias-universidad\\authenticationsystem\\authenticationapi\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|c:\\materias-universidad\\authenticationsystem\\authenticationapi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2829FD4F-27A1-4D7D-8757-30D5895E13C4}|AuthenticationAPI\\AuthenticationAPI.csproj|solutionrelative:authenticationapi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,186 +70,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1020441593:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegisterRequestDto.cs",
-              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\DTO\\RegisterRequestDto.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\DTO\\RegisterRequestDto.cs",
-              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\DTO\\RegisterRequestDto.cs",
-              "RelativeToolTip": "AuthenticationAPI\\DTO\\RegisterRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T03:27:49.466Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthResponseDto.cs",
-              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\DTO\\AuthResponseDto.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\DTO\\AuthResponseDto.cs",
-              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\DTO\\AuthResponseDto.cs",
-              "RelativeToolTip": "AuthenticationAPI\\DTO\\AuthResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T03:26:21.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginRequestDto.cs",
-              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\DTO\\LoginRequestDto.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\DTO\\LoginRequestDto.cs",
-              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\DTO\\LoginRequestDto.cs",
-              "RelativeToolTip": "AuthenticationAPI\\DTO\\LoginRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T03:26:00.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20260731030852_IniatAcpan.cs",
-              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Migrations\\20260731030852_IniatAcpan.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\Migrations\\20260731030852_IniatAcpan.cs",
-              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Migrations\\20260731030852_IniatAcpan.cs",
-              "RelativeToolTip": "AuthenticationAPI\\Migrations\\20260731030852_IniatAcpan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T03:08:55.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\appsettings.json",
-              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\appsettings.json",
-              "RelativeToolTip": "AuthenticationAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-31T03:03:55.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "JwtSettings.cs",
-              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Configuration\\JwtSettings.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\Configuration\\JwtSettings.cs",
-              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Configuration\\JwtSettings.cs",
-              "RelativeToolTip": "AuthenticationAPI\\Configuration\\JwtSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-24T23:53:53.01Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20260718145130_IniatCreate.cs",
-              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Migrations\\20260718145130_IniatCreate.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\Migrations\\20260718145130_IniatCreate.cs",
-              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Migrations\\20260718145130_IniatCreate.cs",
-              "RelativeToolTip": "AuthenticationAPI\\Migrations\\20260718145130_IniatCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T14:51:30.388Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "AuthenticationAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-11T16:15:05.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RolesController.cs",
-              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Controllers\\RolesController.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\Controllers\\RolesController.cs",
-              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Controllers\\RolesController.cs",
-              "RelativeToolTip": "AuthenticationAPI\\Controllers\\RolesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T14:32:10.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "AuthenticationAPI\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-17T02:46:25.531Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\Services\\UserService.cs",
-              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Services\\UserService.cs",
-              "RelativeToolTip": "AuthenticationAPI\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-17T02:36:10.811Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\interfaces\\IUserService.cs",
-              "RelativeToolTip": "AuthenticationAPI\\interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-17T02:30:00.317Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\DTO\\UserDto.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\DTO\\UserDto.cs",
-              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\DTO\\UserDto.cs",
-              "RelativeToolTip": "AuthenticationAPI\\DTO\\UserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-17T02:24:19.57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "AuthenticationAPI\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Services\\AuthService.cs",
-              "RelativeToolTip": "AuthenticationAPI\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-17T02:20:42.404Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -263,22 +84,191 @@
               "RelativeDocumentMoniker": "AuthenticationAPI\\Program.cs",
               "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Program.cs",
               "RelativeToolTip": "AuthenticationAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKQAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-17T02:18:38.757Z",
+              "WhenOpened": "2026-08-01T04:54:13.407Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "AuthenticationAPI\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T04:54:05.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\DTO\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\DTO\\AuthResponseDto.cs",
+              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\DTO\\AuthResponseDto.cs",
+              "RelativeToolTip": "AuthenticationAPI\\DTO\\AuthResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T04:54:03.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\interfaces\\IAuthService.cs",
               "RelativeDocumentMoniker": "AuthenticationAPI\\interfaces\\IAuthService.cs",
               "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\interfaces\\IAuthService.cs",
               "RelativeToolTip": "AuthenticationAPI\\interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-17T02:15:22.398Z",
+              "WhenOpened": "2026-08-01T04:54:00.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\Controllers\\RolesController.cs",
+              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "AuthenticationAPI\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T04:53:57.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Configuration\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\Configuration\\JwtSettings.cs",
+              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Configuration\\JwtSettings.cs",
+              "RelativeToolTip": "AuthenticationAPI\\Configuration\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T04:53:48.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Services\\AuthService.cs",
+              "RelativeToolTip": "AuthenticationAPI\\Services\\AuthService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T04:12:31.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\interfaces\\ITokenService.cs",
+              "RelativeToolTip": "AuthenticationAPI\\interfaces\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T04:09:13.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\DTO\\UserDto.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\DTO\\UserDto.cs",
+              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\DTO\\UserDto.cs",
+              "RelativeToolTip": "AuthenticationAPI\\DTO\\UserDto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T03:38:26.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterRequestDto.cs",
+              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\DTO\\RegisterRequestDto.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\DTO\\RegisterRequestDto.cs",
+              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\DTO\\RegisterRequestDto.cs",
+              "RelativeToolTip": "AuthenticationAPI\\DTO\\RegisterRequestDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T03:38:16.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\Services\\UserService.cs",
+              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Services\\UserService.cs",
+              "RelativeToolTip": "AuthenticationAPI\\Services\\UserService.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAIwAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T03:28:45.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\interfaces\\IUserService.cs",
+              "RelativeToolTip": "AuthenticationAPI\\interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T03:28:39.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AuthenticationAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T03:28:35.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Services\\EmailService.cs",
+              "RelativeToolTip": "AuthenticationAPI\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T03:27:53.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "AuthenticationAPI\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Materias-Universidad\\AuthenticationSystem\\AuthenticationAPI\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "AuthenticationAPI\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAmwFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T02:55:44.041Z",
               "EditorCaption": ""
             }
           ]

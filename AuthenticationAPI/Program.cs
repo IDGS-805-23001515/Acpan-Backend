@@ -12,6 +12,7 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 // Add services to the container.
 
 //Configuracion para usar una bd SQLServer
@@ -76,6 +77,7 @@ builder.Services.AddAuthentication();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddTransient<IEmailService, EmailService>();
 
 builder.Services.AddControllers();
 
@@ -159,6 +161,8 @@ using (var scope = app.Services.CreateScope())
         }
     }
 }
+
+
 
 app.Run();
 

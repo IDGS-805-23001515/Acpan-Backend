@@ -7,7 +7,7 @@ namespace AuthenticationAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "Administrador")]
+    [Authorize(Roles = "Administrador,admin")]
     public class RolesController : ControllerBase
     {
 

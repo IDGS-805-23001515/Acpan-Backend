@@ -7,5 +7,6 @@
         public string Email { get; set; } = string.Empty;
         public DateTime FechaRegistro { get; set; }
         public IList<string> Roles { get; set; } = new List<string>();
+        public bool Estatus { get; set; } = true;
     }
 }

@@ -74,6 +74,12 @@ namespace AuthenticationAPI.Services
                 return new AuthResponseDto { Success = false, Message = "Credenciales incorrectas." };
             }
 
+            // <-- AGREGAR ESTA VALIDACIÓN DE ESTATUS / BLOQUEO -->
+            if (user.LockoutEnd != null && user.LockoutEnd > DateTimeOffset.Now)
+            {
+                return new AuthResponseDto { Success = false, Message = "Tu cuenta se encuentra inactiva. Contacta al administrador." };
+            }
+
             var userRoles = await _userManager.GetRolesAsync(user);
 
             var authClaims = new List<Claim>
