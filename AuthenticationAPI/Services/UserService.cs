@@ -135,11 +135,20 @@ public class UserService : IUserService
         var user = await _userManager.FindByIdAsync(id);
         if (user == null)
             return false;
-        if (!await _userManager.IsInRoleAsync(user, role))
+
+        // 1. Conseguimos todos los roles que tiene actualmente el usuario
+        var rolesActuales = await _userManager.GetRolesAsync(user);
+
+        // 2. Si tiene roles asignados, los removemos todos de golpe
+        if (rolesActuales.Any())
         {
-            await _userManager.AddToRoleAsync(user, role);
+            var removeResult = await _userManager.RemoveFromRolesAsync(user, rolesActuales);
+            if (!removeResult.Succeeded) return false;
         }
-        return true;
+
+        // 3. Le asignamos únicamente el nuevo rol seleccionado
+        var addResult = await _userManager.AddToRoleAsync(user, role);
+        return addResult.Succeeded;
     }
 
     public async Task<bool> ToggleStatusAsync(string id, string currentAdminId)

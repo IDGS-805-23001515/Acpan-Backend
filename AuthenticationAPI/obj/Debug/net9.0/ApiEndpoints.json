@@ -1,14 +1,30 @@
 [
   {
     "ContainingType": "AuthenticationAPI.Controllers.AuthController",
-    "Method": "Login",
-    "RelativePath": "api/Auth/Login",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Auth/change-password",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "dto",
+        "Type": "AuthenticationAPI.DTO.ChangePasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthenticationAPI.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
         "Type": "AuthenticationAPI.DTO.LoginRequestDto",
         "IsRequired": true
       }
@@ -17,7 +33,7 @@
   },
   {
     "ContainingType": "AuthenticationAPI.Controllers.AuthController",
-    "Method": "logout",
+    "Method": "Logout",
     "RelativePath": "api/Auth/logout",
     "HttpMethod": "POST",
     "IsController": true,
@@ -46,6 +62,38 @@
       {
         "Name": "dto",
         "Type": "AuthenticationAPI.DTO.RegisterRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthenticationAPI.Controllers.AuthController",
+    "Method": "ResetUserPassword",
+    "RelativePath": "api/Auth/reset-user-password/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthenticationAPI.Controllers.AuthController",
+    "Method": "Verify2FA",
+    "RelativePath": "api/Auth/verify-2fa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Verify2FaDto",
         "IsRequired": true
       }
     ],

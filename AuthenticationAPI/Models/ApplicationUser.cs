@@ -8,5 +8,8 @@ namespace AuthenticationAPI.Models
         public DateTime FechaRegistro { get; set; } = DateTime.Now;
         public string? RefreshToken { get; set; }
         public DateTime? RefreshTokenExpiration { get; set; }
+
+        public string? TwoFactorCode { get; set; }
+        public DateTime? TwoFactorExpiry { get; set; }
     }
 }

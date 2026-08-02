@@ -1,4 +1,4 @@
-using AuthenticationAPI.Configuration;
+Ôªøusing AuthenticationAPI.Configuration;
 using AuthenticationAPI.Data;
 using AuthenticationAPI.interfaces;
 using AuthenticationAPI.Models;
@@ -8,22 +8,21 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using System.Security.Claims;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
 // Add services to the container.
 
-//Configuracion para usar una bd SQLServer
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+// Configuraci√≥n para usar una bd SQLServer
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-//ConfiguraciÛn oara Identity
-// ConfiguraciÛn para Identity (Regresamos a tu clase ApplicationUser)
+// Configuraci√≥n para Identity
 builder.Services
     .AddIdentity<ApplicationUser, IdentityRole>(options =>
     {
-        // ... (tus opciones de contraseÒas se quedan igual)
         options.Password.RequiredLength = 8;
         options.Password.RequireDigit = true;
         options.Password.RequireUppercase = true;
@@ -38,42 +37,38 @@ builder.Services
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
-//ConfiguraciÛn para JWT
-builder.Services.Configure<JwtSettings>(
-    builder.Configuration.GetSection("JwtSettings"));
-var jwtSettings =
-    builder.Configuration.GetSection("JwtSettings")
-                         .Get<JwtSettings>()!;
+// Configuraci√≥n para JWT
+builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
+var jwtSettings = builder.Configuration.GetSection("JwtSettings").Get<JwtSettings>()!;
+
 builder.Services.AddAuthentication(options =>
 {
-    options.DefaultAuthenticateScheme =
-        JwtBearerDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme =
-        JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 })
 .AddJwtBearer(options =>
 {
     options.RequireHttpsMetadata = false;
     options.SaveToken = true;
-    options.TokenValidationParameters =
-        new TokenValidationParameters
-        {
-            ValidateIssuer = true,
-            ValidateAudience = true,
-            ValidateLifetime = true,
-            ValidateIssuerSigningKey = true,
-            ValidIssuer = jwtSettings.Issuer,
-            ValidAudience = jwtSettings.Audience,
-            IssuerSigningKey =
-                new SymmetricSecurityKey(
-                    Encoding.UTF8.GetBytes(jwtSettings.SecretKey)),
-            ClockSkew = TimeSpan.Zero
-        };
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = jwtSettings.Issuer,
+        ValidAudience = jwtSettings.Audience,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.SecretKey)),
+        ClockSkew = TimeSpan.Zero,
+
+        // üöÄ CRUCIAL: Mapea correctamente el tipo de claim de roles para el [Authorize]
+        RoleClaimType = ClaimTypes.Role
+    };
 });
 
-builder.Services.AddAuthentication();
+// ‚ùå SE REMOVI√ì LA L√çNEA DUPLICADA EXTRA DE AddAuthentication() QUE ANULABA TU JWT
 
-//Registramos los nuevos servicios
+// Registramos los servicios
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IUserService, UserService>();
@@ -81,26 +76,22 @@ builder.Services.AddTransient<IEmailService, EmailService>();
 
 builder.Services.AddControllers();
 
-// ---> AQUI AGREGAMOS LA CONFIGURACI”N DE CORS <---
+// Configuraci√≥n de CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAngular", policy =>
     {
-        policy.WithOrigins("http://localhost:4200") // Permite peticiones de tu app en Angular
+        policy.WithOrigins("http://localhost:4200")
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
 });
 
-//Swagger
+// Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
-    options.SwaggerDoc("v1", new OpenApiInfo
-    {
-        Title = "Authentication API",
-        Version = "v1"
-    });
+    options.SwaggerDoc("v1", new OpenApiInfo { Title = "Authentication API", Version = "v1" });
     options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Name = "Authorization",
@@ -108,18 +99,14 @@ builder.Services.AddSwaggerGen(options =>
         Scheme = "bearer",
         BearerFormat = "JWT",
         In = ParameterLocation.Header,
-        Description = "Ingrese ˙nicamente el token JWT."
+        Description = "Ingrese √∫nicamente el token JWT."
     });
     options.AddSecurityRequirement(new OpenApiSecurityRequirement
     {
         {
             new OpenApiSecurityScheme
             {
-                Reference = new OpenApiReference
-                {
-                    Type=ReferenceType.SecurityScheme,
-                    Id="Bearer"
-                }
+                Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "Bearer" }
             },
             Array.Empty<string>()
         }
@@ -137,7 +124,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// ---> AQUI ACTIVAMOS CORS (Debe ir antes de AutenticaciÛn y AutorizaciÛn) <---
+// ACTIVAMOS CORS (Antes de Autenticaci√≥n y Autorizaci√≥n)
 app.UseCors("AllowAngular");
 
 app.UseAuthentication();
@@ -145,13 +132,13 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-// Crear los roles iniciales (Sincronizados con Angular)
+// Crear los roles iniciales sincronizados
 using (var scope = app.Services.CreateScope())
 {
     var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
 
-    // Cambiamos los nombres para que coincidan con tu Front-End y tu Controlador
-    string[] roles = { "admin", "cliente" };
+    // üöÄ AGREGADO: A√±adimos 'Empleado' al cat√°logo inicial de roles de la base de datos
+    string[] roles = { "admin", "cliente", "Empleado" };
 
     foreach (var role in roles)
     {
@@ -161,9 +148,5 @@ using (var scope = app.Services.CreateScope())
         }
     }
 }
-
-
-
-app.Run();
 
 app.Run();
